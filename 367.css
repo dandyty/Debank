@@ -1,0 +1,78 @@
+@media screen and (max-width: 375px) {
+    /* first session */
+    .topmenu-bar .side-btn{
+        width: 110px;
+        /* top: 10px; */
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 4px;
+        margin-right: 0;
+        /* padding: 4px; */
+    }
+    .topmenu-bar{
+        padding: 4px;
+    }
+    .topmenu-bar .side-btn .connect{
+        padding-top: 7px;
+        font-size: 9px;
+    }
+    .topmenu-bar .side-btn .connect{
+        margin-left: 220px;
+        font-size: 13px;
+        display: flex;
+    }
+    
+     /* second session */
+     .main-contain{
+        top: 45px;
+     }
+     .main-contain .primary-contain{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 2.5rem;
+        /* background-color: #000; */
+    }
+    .main-contain .primary-contain .my-picture{
+        width: 300px;
+        height: 90vh;
+    }
+    .main-contain .primary-contain .text {
+        margin-top: -5rem;
+        /* background-color: #fff; */
+        line-height: 2rem;
+    }
+    .main-contain .primary-contain .text .write-up{
+        font-size: 1.5rem;
+    }
+    .main-contain .primary-contain .text .second-write-up{
+        font-size: 1rem;
+    }
+    .main-contain .primary-contain .plenty{
+        margin-top: -22.5rem;
+        /* background-color: #fff; */
+        max-width: 300px;
+        /* overflow: hidden; */
+        padding: 1rem;
+        margin-left: 0rem;
+    }
+    .main-contain .primary-contain .plenty .bottom-text{
+        font-size: 0.9rem;
+    }
+    .main-contain .primary-contain .plenty .svg-file .Welcome_chainIcon__1zfv_{
+        width: 20px;
+        height: 20px;
+    }
+    .main-contain .primary-contain .text{
+        top: 11rem;
+    }
+    .main-contain .primary-contain .plenty{
+        top: 55rem;
+        width: 500px;
+    }
+    .container .bottom-menu-bar {
+        position: fixed;
+        height: 70px;
+        bottom: 0;
+
+    }
+}

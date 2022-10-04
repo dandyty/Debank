@@ -1,0 +1,114 @@
+@media screen and (max-width: 500px){
+    /* first session */
+    .topmenu-bar .side-btn{
+        width: 20px;
+        /* top: 10px; */
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 2px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .topmenu-bar{
+        /* background-color: transparent; */
+        height: 60px;
+        width: 100%;
+        padding: 17px 20px;
+        justify-content: space-between;
+    }
+    .topmenu-bar .side-btn .connect{
+        margin-left: 300px;
+        font-size: 13px;
+        display: flex;
+    }
+    .shola .logo .act img {
+        width: 10px;
+        z-index: 200;
+        position: absolute;
+        background-color: black;
+    }
+    .container-split{
+        display: none;
+      }
+      .container{
+        display: block;
+        max-width: 100%;
+        z-index: 10;
+        position: absolute;
+        top: 60px;
+    }
+    .shola {
+        display: flex;
+        justify-content: space-between;
+    }
+
+     /* second session */
+     .main-contain{
+        top: 45px;
+        /* height: 100vh; */
+        /* background-color: #e2f2f7; */
+     }
+     .main-contain .primary-contain{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 4rem;
+        background-color: #e2f2f7;
+        height: 170vh;
+    }
+    .main-contain .primary-contain .my-picture{
+        width: 300px;
+        /* height: 120vh; */
+        background-color: #e2f2f7;
+
+    }
+    .main-contain .primary-contain .text {
+        margin-top: -5rem;
+        /* background-color: #fff; */
+        line-height: 2rem;
+    }
+    .main-contain .primary-contain .text .write-up{
+        font-size: 1.5rem;
+    }
+    .main-contain .primary-contain .text .second-write-up{
+        font-size: 1rem;
+    }
+    .main-contain .primary-contain .plenty{
+        margin-top: -22.5rem;
+        /* background-color: #fff; */
+        max-width: 300px;
+        /* overflow: hidden; */
+        padding: 1rem;
+        margin-left: 0rem;
+    }
+    .main-contain .primary-contain .plenty .bottom-text{
+        font-size: 0.9rem;
+    }
+    .main-contain .primary-contain .plenty .svg-file .Welcome_chainIcon__1zfv_{
+        width: 20px;
+        height: 20px;
+    }
+    .main-contain .primary-contain .text{
+        top: 11rem;
+    }
+    .main-contain .primary-contain .plenty{
+        top: 55rem;
+        width: 500px;
+    }
+
+    /* third session */
+    .container .bottom-menu-bar{
+        /* padding: 1rem 0rem; */
+        height: 60px;
+        position: fixed;
+        /* bottom: 0; */
+        margin: 0;
+        padding:0;
+        /* border-top: 1px solid #000 ; */
+    }
+    .container .bottom-menu-bar .profile{
+        margin-left: 3.5rem;
+    }
+    .container .bottom-menu-bar .more{
+        margin-right: 3.5rem;
+    }
+}
